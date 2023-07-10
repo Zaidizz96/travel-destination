@@ -1,0 +1,12 @@
+.footer {
+    height: 100px;
+    background-color: #008B8B;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+
+.footer-img {
+    width: 45px;
+    height: 40px;
+}
