@@ -1,0 +1,19 @@
+.header {
+    background-color: #008B8B;
+    color: #fff; /* Set text color to white */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header h1 {
+    margin: 0;
+  }
+  
+  .header a {
+    color: #fff; /* Set link color to white */
+    text-decoration: none;
+    justify-content: space-around;
+  }
+  

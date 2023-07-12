@@ -1,0 +1,17 @@
+.tour {
+    width: 33.33%;
+    float: left;
+    box-sizing: border-box;
+    padding: 10px;
+  }
+  
+  .tour h3 {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  .tour img {
+    width: 300px;
+    height: 300px;
+    margin-top: 5px;
+  }
