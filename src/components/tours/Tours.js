@@ -1,15 +1,15 @@
+
 import jsonData from "../../data/data.json";
+import Tour from "./tour/Tour";
 import "./Tours.css";
 
 function Tours() {
-    return(
+    
+    return (
         <div className="tourClass">
-           {jsonData.map((obj , i) => (
-            <div key={i}>
-                <label>{obj.name}</label>
-                <img src={obj.image}/>
-            </div>
-           ))}
+            {jsonData.map((element, index) => (
+               <Tour tour={element} key={index}/>
+            ))}
         </div>
     )
 }
